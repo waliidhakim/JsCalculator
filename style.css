@@ -4,7 +4,7 @@
 }
 
 table {
-    background: #454545;
+    background: "saumon";
     padding: 10px;
     border-radius: 10px;
     border-spacing: 5px;
@@ -12,7 +12,7 @@ table {
 
 input,
 #result {
-    background: #eaeaea;
+    background: "yellow";
     border: 0;
     height: 20px;
     padding: 2px 5px;
