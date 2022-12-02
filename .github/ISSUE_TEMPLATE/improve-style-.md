@@ -10,5 +10,5 @@ assignees: Zak893
 ### Ideas to improve Style
 
 **What do you want to __improve__ about the style ?**
-- [] Colors
-- [] Position of Items
+- [ ] Colors
+- [ ] Position of Items
