@@ -1,5 +1,4 @@
 # -----------------------------------------------------------------
-# .gitignore
 # Simplest most basic version
 
 # ignore all files starting with . or ~
@@ -41,6 +40,3 @@ node_modules/
 *.tar
 *.zip
 
-
-# track these files, if they exist
-!.gitignore
