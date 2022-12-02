@@ -1,0 +1,27 @@
+*{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 16px;
+}
+
+table {
+    background: #454545;
+    padding: 10px;
+    border-radius: 10px;
+    border-spacing: 5px;
+}
+
+input,
+#result {
+    background: #eaeaea;
+    border: 0;
+    height: 20px;
+    padding: 2px 5px;
+}
+
+button {
+    background-color: #eaeaea;
+    border: 0;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
