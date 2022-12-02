@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Calculatrice</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<table>
+		<thead>
+			<tr>
+				<td colspan="3">
+					<input type="text" value="" id="formule" />
+				</td>
+				<td>
+					<div id="result"></div>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="3">
+					<button onclick="erase()">Effacer Tout</button>
+				</td>
+				<td>
+					<button onclick="click_touch('/');">/</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="click_touch(7);">7</button>
+				</td>
+				<td>
+					<button onclick="click_touch(8);">8</button>
+				</td>
+				<td>
+					<button onclick="click_touch(9);">9</button>
+				</td>
+				<td>
+					<button onclick="click_touch('*');">*</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="click_touch(4);">4</button>
+				</td>
+				<td>
+					<button onclick="click_touch(5);">5</button>
+				</td>
+				<td>
+					<button onclick="click_touch(6);">6</button>
+				</td>
+				<td>
+					<button onclick="click_touch('-');">-</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="click_touch(1);">1</button>
+				</td>
+				<td>
+					<button onclick="click_touch(2);">2</button>
+				</td>
+				<td>
+					<button onclick="click_touch(3);">3</button>
+				</td>
+				<td>
+					<button onclick="click_touch('+');">+</button>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<button onclick="click_touch(0);">0</button>
+				</td>
+				<td>
+					<button id="egal" onclick="egal();">=</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
