@@ -7,4 +7,6 @@ assignees: Zak893
 
 ---
 
-
+**What do you want to __improve__ about the style ?**
+[ ] Colors
+[ ] Position of Items
