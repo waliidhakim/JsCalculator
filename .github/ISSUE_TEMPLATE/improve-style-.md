@@ -1,7 +1,7 @@
 ---
 name: 'Improve Style '
 about: Any proposition to imrove the Style?
-title: ''
+title: Colors are ugly
 labels: enhancement
 assignees: Zak893
 
